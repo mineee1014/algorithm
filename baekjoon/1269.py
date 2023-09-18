@@ -1,0 +1,5 @@
+N_a,N_b = map(int, input().split())
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+c = set(A+B)
+print(len(c)*2-len(B)-len(A))
