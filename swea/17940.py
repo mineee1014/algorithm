@@ -1,3 +1,4 @@
+from itertools import combinations
 def case(num):
     if num == 0:
         print(record)
